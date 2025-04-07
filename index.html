@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玄灵鲸跃</title>
+    <meta name="keywords" content="玄灵鲸跃的个人网站,玄灵鲸跃个人网站,xuan ling jing yue,x l j y>
+    <meta name="description" content="玄灵鲸跃的个人网站">
+    <meta name="author" content="玄灵鲸跃">
+    <link rel="shortcut icon" href="https://q1.qlogo.cn/g?b=qq&nk=2844078140&s=100" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="core hd">
+        <!-- 时间 -->
+        <h1 class="time_econd"></span></h1>
+        <h3><span class="time_moon"></span>&nbsp;&nbsp;<span id="clock"></span>&#128513;</h3>
+        <!-- 搜索栏 -->
+        <div class="xf_baidu xf_style">
+            <form action="http://www.baidu.com/baidu" target="_blank">
+                <i></i>
+                <input type="text" name="word" size="30" autocomplete="off" placeholder="百度一下">
+                <input type="submit">
+            </form>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <section class="core main xf_style">
+        <!-- 头像 -->
+        <div class="tx">
+            <!-- 可以换成自己的 -->
+            <img src="https://q1.qlogo.cn/g?b=qq&nk=2844078140&s=100" alt="" title="">
+        </div>
+        <!-- 姓名 个签 -->
+        <div class="xf_name">
+            <h2>玄灵鲸跃</h2>
+            <h4 id="xf_txt"></h4>
+        </div>
+        <!-- 图标 （img里面的是透明图是用来转换超链接） -->
+        <div class="xf_ico_link">
+            <ul>
+                <li><a href="https://space.bilibili.com/3493268113328579" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="bilibili" title="bilibili"></a></li>
+            </ul>
+        </div>
+        <!-- 介绍 -->
+        <div class="xf_introduce">
+            <p id="xf_type"></p>
+        </div>
+        <!-- 滑动效果 -->
+        <p class="xf_slide">&#xeb6d;</p>
+        <div class="xf_website">
+            <a href="https://www.bilibili.com/video/BV1GJ411x7h7" target="_blank" rel="noopener noreferrer">什么也没有,可能...</a>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer class="core copy">
+
+    </footer>
+    <audio autoplay>
+        <source src="./assets/audio/上海乐团管弦乐团与合唱团 - 义勇军进行曲.wav" type="audio/wav">
+    </audio>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".xf_slide").click(function () {
+                $(".xf_website").slideToggle("slow");
+            })
+        })
+    </script>
+    <script src="./assets/js/time.js"></script>
+    <script src="./assets/js/text.js"></script>
+</body>
+
+</html>
