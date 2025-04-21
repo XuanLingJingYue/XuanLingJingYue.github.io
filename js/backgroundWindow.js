@@ -167,7 +167,6 @@
     }
 
     function loop() {
-
         if (!ctx.running) return;
 
         ctx.globalCompositeOperation = 'source-over';
@@ -301,7 +300,7 @@
         ctx.running = true;
         ctx.frame = 1;
 
-       
+
 
         hue = new Oscillator({
             phase: Math.random() * Math.TWO_PI,
@@ -310,7 +309,7 @@
             offset: 285
         });
 
-     
+
 
         document.addEventListener('mousemove', init);
         document.addEventListener('touchstart', init);
@@ -325,7 +324,7 @@
         if (window.DEBUG) {
 
             var gui = new dat.GUI();
-            
+
             settings.gui.add(settings, 'trails', 1, 30).onChange(reset);
             settings.gui.add(settings, 'size', 25, 75).onFinishChange(reset);
             settings.gui.add(settings, 'friction', 0.45, 0.55).onFinishChange(reset);

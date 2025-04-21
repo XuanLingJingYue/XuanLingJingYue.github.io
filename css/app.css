@@ -2329,10 +2329,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
         border-radius: 1px
     }
 
-    .navbar-header {
-        float: left
-    }
-
     .navbar-collapse {
         width: auto;
         border-top: 0;
@@ -2374,12 +2370,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .container-fluid>.navbar-collapse,
-.container-fluid>.navbar-header,
 .container>.navbar-collapse,
-.container>.navbar-header {
-    margin-right: -20px;
-    margin-left: -20px
-}
 
 .navbar-static-top {
     z-index: 1000;
@@ -2425,12 +2416,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 @media (min-width:992px) {
 
     .container-fluid>.navbar-collapse,
-    .container-fluid>.navbar-header,
     .container>.navbar-collapse,
-    .container>.navbar-header {
-        margin-right: 0;
-        margin-left: 0
-    }
 
     .navbar-fixed-bottom,
     .navbar-fixed-top,
@@ -2793,8 +2779,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav:before,
 .navbar-collapse:after,
 .navbar-collapse:before,
-.navbar-header:after,
-.navbar-header:before,
 .navbar:after,
 .navbar:before,
 .pager:after,
@@ -2818,7 +2802,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .modal-header:after,
 .nav:after,
 .navbar-collapse:after,
-.navbar-header:after,
 .navbar:after,
 .pager:after,
 .panel-body:after,
